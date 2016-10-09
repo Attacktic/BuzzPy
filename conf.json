@@ -1,0 +1,16 @@
+{
+	"show_video": false,
+	"min_sms_seconds": 50.0,
+	"min_upload_seconds": 3.0,
+	"min_motion_frames": 8,
+	"camera_warmup_time": 2.5,
+	"delta_thresh": 5,
+	"resolution": [640, 480],
+	"fps": 16,
+	"min_area": 5000,
+ 	"AK": "AKIAIYBDS3NHZ2AIPZ2A",
+	"SK": "EtEW0boFicPHNRFIyJzN9ZokCadoB+TKYVI2n1j1",
+"email":"hello@world",
+"user_key":"appname8qj3m42cg1l6",
+"phone":"(720) 347-2530"
+}
