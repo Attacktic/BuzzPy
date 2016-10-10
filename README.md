@@ -2,14 +2,14 @@
 ## How does it work?
 ###After setting up the Raspberry Pi and installing NAMe you can use the following commands run the camera:
 ```
-$ workon cv
-$ python pi_surveillance.py --conf conf.json
+  $ workon cv
+  $ python pi_surveillance.py --conf conf.json
 ```
 ##### Images will show up in the app and you will get text message updates when the camera detects motion.
 
 ##### To stop the stream and updates:
 ```
-CTRL + C
+  CTRL + C
 ```
 
 ## Set Up Instructions:
@@ -20,7 +20,7 @@ CTRL + C
 ```
   $ sudo apt-get update
   $ sudo apt-get upgrade
-	$ sudo rpi-update
+  $ sudo rpi-update
 ```
 
 ### 3. Install all dependencies:
@@ -73,6 +73,8 @@ CTRL + C
   $ cd REPO/main
   $ workon cv
   $ python SETUPFILENAME
-  -enter required data
+```
+##### Enter Required Data When Prompted
+```
   $ python pi_surveillance.py --conf conf.json
 ```
