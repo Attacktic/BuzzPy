@@ -1,6 +1,7 @@
-
+#BuzzPy
+######Created and developed by Adriana Galvez.
 ## How does it work?
-###After setting up the Raspberry Pi and installing NAMe you can use the following commands run the camera:
+###After setting up the Raspberry Pi and installing BuzzPy you can use the following commands run the camera:
 ```
   $ workon cv
   $ python pi_surveillance.py --conf conf.json
@@ -67,12 +68,12 @@
 ```
   $ pip install "picamera[array]"
 ```
-### 7. Download Set Up File:
+### 7. Download BuzzPy Set Up File and Install:
 ```
-  $ git clone REPO
-  $ cd REPO/main
+  $ git clone git@github.com:Attacktic/BuzzPy.git
+  $ cd BuzzPy/main
   $ workon cv
-  $ python SETUPFILENAME
+  $ python setup.py
 ```
 ##### Enter Required Data When Prompted
 ```
