@@ -1,12 +1,13 @@
 
-## How does it work? After setting up the Raspberry Pi and installing NAMe you can use the following commands run the camera:
+## How does it work?
+###After setting up the Raspberry Pi and installing NAMe you can use the following commands run the camera:
 ```
 $ workon cv
 $ python pi_surveillance.py --conf conf.json
 ```
-###### Images will show up in the app and you will get text message updates when the camera detects motion.
+##### Images will show up in the app and you will get text message updates when the camera detects motion.
 
-###### To stop the stream and updates:
+##### To stop the stream and updates:
 ```
 CTRL + C
 ```
@@ -58,11 +59,11 @@ $ cd ~/.virtualenvs/cv/lib/python2.7/site-packages/
 $ ln -s /usr/local/lib/python2.7/site-packages/cv2.so cv2.so
 $ ln -s /usr/local/lib/python2.7/site-packages/cv.py cv.py
 ```
-### 6. Enable Camera in rasps-config menue:
+### 6. Enable Camera in rasps-config menu:
 ```
 $ sudo raspi-config
 ```
-###### 6.5. Install Camera:
+##### 6.5. Install Camera:
 ```
 $ pip install "picamera[array]"
 ```
