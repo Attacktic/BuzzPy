@@ -1,5 +1,8 @@
 #BuzzPy
 ######Created and developed by Adriana Galvez.
+[Back-end](https://github.com/Attacktic/capstoneBackend)
+[iOS](https://github.com/Attacktic/iosCapstone)
+[Android](https://github.com/Attacktic/androidCapstone)
 ## How does it work?
 ###After setting up the Raspberry Pi and installing BuzzPy you can use the following commands run the camera:
 ```
