@@ -1,9 +1,9 @@
-#BuzzPy
+#PrivatePy
 #####Created and developed by Adriana Galvez.
 
 ###### [Back-end](https://github.com/Attacktic/capstoneBackend) / [iOS](https://github.com/Attacktic/iosCapstone) / [Android](https://github.com/Attacktic/androidCapstone) (Under Development)
 ## How does it work?
-###After setting up the Raspberry Pi and installing BuzzPy you can use the following commands run the camera:
+###After setting up the Raspberry Pi and installing PrivatePy you can use the following commands run the camera:
 ```
   $ workon cv
   $ python pi_surveillance.py --conf conf.json
@@ -70,10 +70,10 @@
 ```
   $ pip install "picamera[array]"
 ```
-### 7. Download BuzzPy Set Up File and Install:
+### 7. Download PrivatePy Set Up File and Install:
 ```
-  $ git clone git@github.com:Attacktic/BuzzPy.git
-  $ cd BuzzPy/main
+  $ git clone git@github.com:Attacktic/PrivatePy.git
+  $ cd PrivatePy/main
   $ workon cv
   $ python setup.py
 ```
